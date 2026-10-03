@@ -61,3 +61,12 @@ with explanations and review of the cleaning decisions.
 - Zero fares and matching rows were retained because there was not enough evidence to treat them as errors.
 - Further preparation may be needed before using the data for machine learning.
 - This project focuses on data cleaning and does not include a prediction model.
+
+
+## Install Required Packages
+
+With Python installed, run this command in your terminal:
+
+```bash
+pip install pandas notebook
+```
