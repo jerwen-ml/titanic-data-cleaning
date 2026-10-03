@@ -1,0 +1,45 @@
+# Titanic Data Cleaning with Pandas
+
+A beginner project focused on inspecting Titanic passenger data,
+handling missing values, and documenting cleaning decisions.
+
+## Objectives
+
+- Inspect dataset dimensions, data types, and missing values.
+- Review unusual numeric values and matching rows.
+- Handle missing information without guessing unknown facts.
+- Export the cleaned dataset and check its dimensions.
+
+## Dataset
+
+Source: [Seaborn Titanic dataset](https://github.com/mwaskom/seaborn-data/blob/master/titanic.csv)
+
+The original dataset contains 891 rows and 15 columns.
+
+## Cleaning Decisions
+
+- Preserved all 891 passenger records.
+- Labeled 688 missing deck values as "Unknown".
+- Labeled 2 missing values each in embarked and embark_town as "Unknown".
+- Kept 177 missing ages and added a missing_age indicator.
+- Retained 15 zero-fare records because they were not confirmed errors.
+- Retained matching rows because identical details do not prove
+  that records represent the same passenger.
+
+## Output
+
+The exported dataset contains 891 rows and 16 columns.
+
+## Project Files
+
+- Titanic_Data_Cleaning.ipynb: Code, outputs, and explanations.
+- titanic_cleaned.csv: Exported data after the documented cleaning steps.
+
+## Tools
+
+Python, Pandas, and Jupyter Notebook.
+
+## Learning Context
+
+This project was completed through guided practice with an AI assistant,
+with explanations and review of the cleaning decisions.
