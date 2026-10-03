@@ -43,3 +43,21 @@ Python, Pandas, and Jupyter Notebook.
 
 This project was completed through guided practice with an AI assistant,
 with explanations and review of the cleaning decisions.
+
+
+## How to Run
+
+1. Download this repository and extract the ZIP file.
+2. Open `Titanic_Data_Cleaning.ipynb` in Jupyter Notebook.
+3. Ensure that Python and Pandas are installed.
+4. Check the data-loading cell. If it uses a local CSV path, download the original dataset from the source link above and update the path.
+5. Run the cells in order, from top to bottom.
+6. Review the results and the exported `titanic_cleaned.csv` file.
+
+## Limitations
+
+- The dataset still contains 177 missing age values. The missing-age indicator identifies these records but does not estimate their ages.
+- "Unknown" is a label for missing information, not a recovered value.
+- Zero fares and matching rows were retained because there was not enough evidence to treat them as errors.
+- Further preparation may be needed before using the data for machine learning.
+- This project focuses on data cleaning and does not include a prediction model.
